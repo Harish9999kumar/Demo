@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.HRM.Doctor_test.AdminToDocTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="adminDocTest"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- org.HRM.Doctor_test.AdminToDocTest -->
+      <class name="org.HRM.Doctor_test.DocToAdminPatSrchTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- org.HRM.Doctor_test.DocToAdminPatSrchTest -->
+      <class name="org.HRM.Doctor_test.PatientSearchTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- org.HRM.Doctor_test.PatientSearchTest -->
+      <class name="org.HRM.Doctor_test.DocToAdminManagePatTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- org.HRM.Doctor_test.DocToAdminManagePatTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
